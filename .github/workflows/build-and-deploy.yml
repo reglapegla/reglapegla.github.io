@@ -1,4 +1,4 @@
-name: Build and deploy Plasmic app
+name: Deploy to GitHub Pages
 
 permissions:
   contents: write
@@ -6,9 +6,7 @@ permissions:
   pull-requests: write
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   job:
