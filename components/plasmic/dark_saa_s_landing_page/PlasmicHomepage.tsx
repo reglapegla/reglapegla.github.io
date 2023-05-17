@@ -372,18 +372,6 @@ function PlasmicHomepage__RenderFunc(props: {
               }
             >
               <div className={classNames(projectcss.all, sty.freeBox__rwU4A)}>
-                <h2
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h2,
-                    projectcss.__wab_text,
-                    sty.h2__bjdp6
-                  )}
-                >
-                  {hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? "Lorem ipsum dolor \nsit amet"
-                    : "Lorem ipsum dolor \nsit amet"}
-                </h2>
                 <div
                   className={classNames(
                     projectcss.all,
