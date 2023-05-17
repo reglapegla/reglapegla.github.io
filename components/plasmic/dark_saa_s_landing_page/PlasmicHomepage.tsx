@@ -692,16 +692,6 @@ function PlasmicHomepage__RenderFunc(props: {
                     }}
                   />
                 </p.Stack>
-                <h2
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h2,
-                    projectcss.__wab_text,
-                    sty.h2__slrZd
-                  )}
-                >
-                  {"Lorem ipsum dolor \nsit amet"}
-                </h2>
                 <div
                   className={classNames(
                     projectcss.all,
