@@ -187,7 +187,7 @@ function PlasmicNavbar__RenderFunc(props: {
               role={"img"}
             />
           }
-          link={`/home`}
+          link={`/`}
           startIcon={
             <svg
               className={classNames(projectcss.all, sty.svg__sfnZr)}
@@ -252,7 +252,6 @@ function PlasmicNavbar__RenderFunc(props: {
               role={"img"}
             />
           }
-          link={`/aboutme`}
           startIcon={
             <svg
               className={classNames(projectcss.all, sty.svg___9F4K1)}

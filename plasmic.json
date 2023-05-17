@@ -55,7 +55,7 @@
           "projectId": "godPLiX5oeXKhPMKyYfERC",
           "renderModuleFilePath": "plasmic/dark_saa_s_landing_page/PlasmicHomepage.tsx",
           "importSpec": {
-            "modulePath": "../pages/home.tsx"
+            "modulePath": "../pages/index.tsx"
           },
           "cssFilePath": "plasmic/dark_saa_s_landing_page/PlasmicHomepage.module.css",
           "scheme": "blackbox",
@@ -191,19 +191,6 @@
           "cssFilePath": "plasmic/dark_saa_s_landing_page/PlasmicPriceSection.module.css",
           "scheme": "blackbox",
           "componentType": "component"
-        },
-        {
-          "id": "_dau56ERG1k",
-          "name": "AboutMe",
-          "type": "managed",
-          "projectId": "godPLiX5oeXKhPMKyYfERC",
-          "renderModuleFilePath": "plasmic/dark_saa_s_landing_page/PlasmicAboutMe.tsx",
-          "importSpec": {
-            "modulePath": "../pages/aboutme.tsx"
-          },
-          "cssFilePath": "plasmic/dark_saa_s_landing_page/PlasmicAboutMe.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
         }
       ],
       "icons": [
