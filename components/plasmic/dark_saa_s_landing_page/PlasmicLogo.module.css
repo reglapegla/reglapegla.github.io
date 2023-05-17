@@ -1,0 +1,26 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.img {
+  object-fit: contain;
+  width: 100%;
+  height: 160px;
+  max-width: 637px;
+  min-width: 0;
+}
+.img > picture > img {
+  object-fit: contain;
+}
+.img > :global(.__wab_img-spacer) > img {
+  object-fit: contain;
+}
+.img_50Opaque {
+  opacity: 0.5;
+}
+.imgsmallLogo {
+  max-width: 50px;
+}
