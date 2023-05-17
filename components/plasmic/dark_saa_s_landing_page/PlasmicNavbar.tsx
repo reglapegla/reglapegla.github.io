@@ -187,7 +187,7 @@ function PlasmicNavbar__RenderFunc(props: {
               role={"img"}
             />
           }
-          link={"#" as const}
+          link={`/`}
           startIcon={
             <svg
               className={classNames(projectcss.all, sty.svg__sfnZr)}
@@ -208,23 +208,12 @@ function PlasmicNavbar__RenderFunc(props: {
               const $steps = {};
               $steps["goToHomepage"] = true
                 ? (() => {
-                    const actionArgs = {
-                      destination: __wrapUserFunction(
-                        {
-                          type: "InteractionArgLoc",
-                          actionName: "navigation",
-                          interactionUuid: "7QwYBd_ME",
-                          componentUuid: "u-I3iLDeCNZPb",
-                          argName: "destination"
-                        },
-                        () => `/`
-                      )
-                    };
+                    const actionArgs = {};
                     return __wrapUserFunction(
                       {
                         type: "InteractionLoc",
                         actionName: "navigation",
-                        interactionUuid: "7QwYBd_ME",
+                        interactionUuid: "MOop5sZ5M",
                         componentUuid: "u-I3iLDeCNZPb"
                       },
                       () =>
@@ -243,43 +232,10 @@ function PlasmicNavbar__RenderFunc(props: {
                   {
                     type: "InteractionLoc",
                     actionName: "navigation",
-                    interactionUuid: "7QwYBd_ME",
+                    interactionUuid: "MOop5sZ5M",
                     componentUuid: "u-I3iLDeCNZPb"
                   },
                   $steps["goToHomepage"]
-                );
-              }
-              $steps["updateStateVariable"] = true
-                ? (() => {
-                    const actionArgs = {};
-                    return __wrapUserFunction(
-                      {
-                        type: "InteractionLoc",
-                        actionName: "updateVariable",
-                        interactionUuid: "yCRyZzmRP",
-                        componentUuid: "u-I3iLDeCNZPb"
-                      },
-                      () =>
-                        (({ variable, value, startIndex, deleteCount }) => {
-                          const { objRoot, variablePath } = variable;
-                          undefined;
-                        })?.apply(null, [actionArgs]),
-                      actionArgs
-                    );
-                  })()
-                : undefined;
-              if (
-                typeof $steps["updateStateVariable"] === "object" &&
-                typeof $steps["updateStateVariable"].then === "function"
-              ) {
-                $steps["updateStateVariable"] = await __wrapUserPromise(
-                  {
-                    type: "InteractionLoc",
-                    actionName: "updateVariable",
-                    interactionUuid: "yCRyZzmRP",
-                    componentUuid: "u-I3iLDeCNZPb"
-                  },
-                  $steps["updateStateVariable"]
                 );
               }
             }}
@@ -296,7 +252,7 @@ function PlasmicNavbar__RenderFunc(props: {
               role={"img"}
             />
           }
-          link={"#" as const}
+          link={`/-2`}
           startIcon={
             <svg
               className={classNames(projectcss.all, sty.svg___9F4K1)}
