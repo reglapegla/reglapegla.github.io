@@ -187,7 +187,7 @@ function PlasmicNavbar__RenderFunc(props: {
               role={"img"}
             />
           }
-          link={`/`}
+          link={`/kurac`}
           startIcon={
             <svg
               className={classNames(projectcss.all, sty.svg__sfnZr)}
