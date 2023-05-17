@@ -1,5 +1,10 @@
 name: Build and deploy Plasmic app
 
+permissions:
+  contents: write
+  pages: write
+  pull-requests: write
+
 on:
   push:
     branches:
