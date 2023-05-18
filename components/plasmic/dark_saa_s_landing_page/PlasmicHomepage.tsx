@@ -1056,29 +1056,8 @@ function PlasmicHomepage__RenderFunc(props: {
                 <div className={classNames(projectcss.all, sty.freeBox__t1Nun)}>
                   <div
                     className={classNames(projectcss.all, sty.freeBox__ybq3O)}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__klvjx)}
-                      displayHeight={"auto" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? ("339px" as const)
-                          : ("100%" as const)
-                      }
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"auto" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/dark_saa_s_landing_page/images/aboutImgpng.png",
-                        fullWidth: 400,
-                        fullHeight: 500,
-                        aspectRatio: undefined
-                      }}
-                    />
-                  </div>
+                  />
+
                   <div
                     className={classNames(projectcss.all, sty.freeBox__ui11Y)}
                   >

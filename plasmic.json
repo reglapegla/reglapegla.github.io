@@ -55,7 +55,7 @@
           "projectId": "godPLiX5oeXKhPMKyYfERC",
           "renderModuleFilePath": "plasmic/dark_saa_s_landing_page/PlasmicHomepage.tsx",
           "importSpec": {
-            "modulePath": "../pages/kurac.tsx"
+            "modulePath": "../pages/index.tsx"
           },
           "cssFilePath": "plasmic/dark_saa_s_landing_page/PlasmicHomepage.module.css",
           "scheme": "blackbox",

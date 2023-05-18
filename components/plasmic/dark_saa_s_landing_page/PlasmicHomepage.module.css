@@ -1285,23 +1285,6 @@
   min-width: 0;
   padding: 8px;
 }
-.img__klvjx {
-  position: relative;
-  object-fit: cover;
-  max-width: 100%;
-  width: auto;
-}
-.img__klvjx > picture > img {
-  object-fit: cover;
-}
-.img__klvjx > :global(.__wab_img-spacer) > img {
-  object-fit: cover;
-}
-@media (min-width: 0px) and (max-width: 930px) {
-  .img__klvjx {
-    max-width: 339px;
-  }
-}
 .freeBox__ui11Y {
   display: flex;
   position: relative;

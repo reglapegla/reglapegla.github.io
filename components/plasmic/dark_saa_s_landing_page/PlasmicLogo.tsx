@@ -142,7 +142,7 @@ function PlasmicLogo__RenderFunc(props: {
         { [sty.root_50Opaque]: hasVariant($state, "_50Opaque", "_50Opaque") }
       )}
       component={Link}
-      href={`/kurac`}
+      href={`/`}
       platform={"nextjs"}
     >
       <p.PlasmicImg
